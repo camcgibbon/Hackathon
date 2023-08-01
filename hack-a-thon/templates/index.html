@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hack-a-thon</title>
+    <link rel="stylesheet" type="text/css" href="static/styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+<body>
+    <div class = image-section>
+        <img id="leantaas" src="static/images/leantaas.png">
+    </div>
+    <div class="container">
+        <h1 class="text-center">Hack-a-thon</h1>
+        <form action="/generate" method="post">
+            <div class="form-group">
+                <label for="code">Code:</label>
+                <textarea class="form-control form-control-sm" id="code" name="code" rows="50"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="customer">Customer:</label>
+                <input type="text" class="form-control" id="customer" name="customer">
+            </div>
+            <div class="text-center">
+                <input type="submit" class="submit-btn" value="Submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
